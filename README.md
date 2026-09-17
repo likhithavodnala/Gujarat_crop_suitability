@@ -301,44 +301,41 @@ The system is intended as a **decision-support tool** and should be used togethe
 
 ## My Contribution
 
-### Data Processing, Machine Learning and Application Development
+### Machine Learning & Crop Suitability Prediction
 
-My contribution to the project focused on integrating agricultural datasets, preparing data for analysis, implementing machine learning-based crop suitability prediction, and supporting the development of the interactive application.
+My primary contribution focused on the machine learning and crop suitability prediction component of the project.
 
-Key contributions include:
+Key responsibilities included:
 
-- Worked with village-level Soil Health Card data from Gujarat.
-- Performed data preprocessing and preparation of soil and climate variables.
-- Integrated soil information with climate parameters used for crop suitability analysis.
-- Worked with agricultural crop suitability information and reference standards.
-- Supported feature engineering and preparation of model input variables.
-- Worked with class-balancing techniques including SMOTE as part of the machine learning workflow.
-- Worked with XGBoost and Random Forest classification models for crop suitability prediction.
-- Evaluated model performance and compared classification results.
-- Worked with the trained XGBoost model used in the final application.
-- Implemented crop recommendation and alternative crop suitability logic.
-- Developed and integrated the Streamlit-based interactive application.
-- Worked on displaying crop recommendations, suitability scores and soil health information.
-- Contributed to testing and validating the application workflow.
-- Worked on deploying the application for public access through Streamlit.
+- Prepared the model-ready dataset using the available soil and climate variables.
+- Worked on feature engineering for crop suitability prediction.
+- Worked with the eight prediction features: Nitrogen (N), Phosphorus (P), Potassium (K), pH, Temperature, Rainfall, Humidity and Wind Speed.
+- Applied SMOTE as part of the class-balancing process.
+- Worked with XGBoost and Random Forest classification models.
+- Participated in model training and validation.
+- Compared the performance of the evaluated machine learning models.
+- Evaluated model performance using classification accuracy.
+- Worked on the XGBoost model, which achieved the reported accuracy of 87%.
+- Developed the machine learning-based crop suitability prediction component.
+- Worked on crop recommendation and alternative crop suitability calculations.
+- Worked on generating suitability scores for recommended crops.
 
 ### Skills Demonstrated
 
-This project demonstrates experience in:
-
-- Agricultural Data Analytics
-- Data Preprocessing
-- Data Integration
+- Data Preparation
 - Feature Engineering
+- Agricultural Data Analytics
 - Machine Learning
 - Classification
 - XGBoost
 - Random Forest
+- SMOTE
+- Model Training
+- Model Validation
 - Model Evaluation
+- Predictive Analytics
+- Crop Suitability Modelling
 - Python
-- Streamlit
-- Decision Support Systems
-
 ## Limitations
 
 - Soil information is based on available Soil Health Card records.
